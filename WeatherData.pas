@@ -124,14 +124,7 @@ begin
       memRestData.Lines.Add(' UV (ml): ' + CurrentObject.GetValue('uv').Value);
       memRestData.Lines.Add(' Gust Speed (mph): ' + CurrentObject.GetValue('gust_mph').Value);
       memRestData.Lines.Add(' Gust Speed (kmh): ' + CurrentObject.GetValue('gust_kph').Value);
-
-
-
     end;
-
   end;
-
-
 end;
-
 end.
